@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $('form').on('submit', function(event) {
-        event.preventDefault();
+        event.preventDefault(); //disable the default behavior (submit)
         var item = $('form input');
         var todo = { item: item.val().trim() };
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
                 location.reload();
             }
         });
-
+        //prevents the default action
         return false;
 
     });

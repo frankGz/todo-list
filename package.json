@@ -1,0 +1,20 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "exercise express mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "frank.gz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
